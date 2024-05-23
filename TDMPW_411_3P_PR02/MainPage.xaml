@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_411_3P_PR02.MainPage"
+             BackgroundColor="CadetBlue">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid>
+                
+            </Grid>
+            <Grid ColumnDefinitions="0.8*, 0.2*">
+
+                <Entry Placeholder="Agregar una nota"
+                   Grid.Column="0"
+                   HeightRequest="20"
+                   BackgroundColor="White"
+                   ></Entry>
+                <ImageButton Grid.Column="1"
+                         HeightRequest="20"
+                         WidthRequest="20"
+                         Source="imageagregar.png"
+                         BackgroundColor="Gray"
+                         BorderColor="Black"
+                         CornerRadius="5"></ImageButton>
+            </Grid>
+        </VerticalStackLayout>
+       
+    </ScrollView>
+
+</ContentPage>
